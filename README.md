@@ -5,5 +5,5 @@
 - For deepsort and strongsort videos named 20,33,45,46,71,72 are shared.
 - The Green boxes in videos indicates detection results while Ids indicates trackings.
 
-
+### The main.py file will be the starting point for the code examination.
 ### This file will be updated later on.. 
