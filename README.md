@@ -2,7 +2,9 @@
 
 ### Video outputs placed in folder "Videos" for our tracker, deepsort and strongsort
 The video outputs for our tracking systems have been systematically organized within the designated folder named "Videos". This folder contains the visualization results for OUR CUSTOM TRACKER , DeepSORT, and StrongSORT.
+Results for each tracking approach are presented using both FastSAM and contour detection. Folders named as according to tracker and detection techniques.
 
+- Each video is named using the format chagasX_****.avi. In this format, X represents the video number (e.g., chagas20_*****.avi refers to video 20).
 - The visual tracking results for the DeepSORT and StrongSORT, are provided in videos corresponding to the following sequences: 20, 33, 45, 46, 71, and 72.
 - The results for our tracker are presented in the video named "33 sequence". Each distinct step or processing stage of the tracker's operation is visualized as a separate video output within this sequence.
 - Additionally some other sequences outputs of our tracker are located in the "other-outputs" folder.
