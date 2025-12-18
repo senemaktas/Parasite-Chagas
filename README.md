@@ -9,6 +9,8 @@ Results for each tracking approach are presented using both **FastSAM and contou
 - Individual processing steps for sequence **33** are provided as separate video files to demonstrate the tracker's operation.
 - Additionally, outputs (our tracker) for other sequences are available in the **"other-outputs"** directory.
 
+  <img src="chagas_github_folder_structure.png" alt="video_folder"	width="900" height="300" /> 
+
 ### Visual Interpretation Key
 To correctly interpret the tracking results in all videos:
 - **Detection Results**: The object detection bounding boxes are highlighted in Green.
