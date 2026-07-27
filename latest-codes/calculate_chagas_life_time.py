@@ -9,9 +9,9 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 
-# json_folder_path = "E:\senem\chagas_project\chagas_out\\fastsam_out\jsons"
-# json_folder_path = "E:\senem\chagas_project\dense_opt_out\deepsort_contour_out\jsons"
-json_folder_path = "E:\senem\chagas_project\dense_opt_out\strongsort_fastsam_out\jsons"
+# json_folder_path = "E:\xxx\xx\chagas_out\\fastsam_out\jsons"
+# json_folder_path = "E:\xxx\xxx\dense_opt_out\deepsort_contour_out\jsons"
+json_folder_path = "E:\xxx\xxxx\dense_opt_out\strongsort_fastsam_out\jsons"
 whole_static_matrix = []
 whole_static_matrix2 = []
 
