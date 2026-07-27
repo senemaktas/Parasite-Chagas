@@ -16,7 +16,7 @@ if len(physical_devices) > 0:
 
 # Hide GPU from visible devices tf.config.set_visible_devices([], 'GPU:0')
 # chagas_classification_model_cpu_sgd_sigmoid_binary_epoch15
-chagas_classification_model_path = r'E:\senem\chagas_project\classification_efficient\gpu_efficient_gray_sgd_001_softmax_binary_epoch15'
+chagas_classification_model_path = r'E:\xxx\xxxxx\classification_efficient\gpu_efficient_gray_sgd_001_softmax_binary_epoch15'
 chagas_classification_model = tf.keras.models.load_model(chagas_classification_model_path)
 
 
