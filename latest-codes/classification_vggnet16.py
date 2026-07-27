@@ -156,7 +156,7 @@ vgg_ft_history = vgg_model_ft.fit(X_train, y_train, batch_size=BATCH_SIZE, epoch
                                   callbacks=[rlrop, tl_checkpoint_1, early_stop], verbose=1)
 
 # save the model chagas_classification_model_cpu_sgd_sigmoid_binary_epoch15
-chagas_classification_model_path = r'E:\senem\chagas_project\classification_folder\gray_cpu_sgd_001_sigmoid_binary_epoch15'
+chagas_classification_model_path = r'E:\xxxx\xxxx\classification_folder\gray_cpu_sgd_001_sigmoid_binary_epoch15'
 vgg_model_ft.save(chagas_classification_model_path)
 # ---------------------------------------------------
 #                  DRAW THE RESULT
