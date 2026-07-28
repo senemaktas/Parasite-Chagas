@@ -113,8 +113,8 @@ def create_model(input_shape, n_classes, optimizer='rmsprop', fine_tune=0):
     top_model = Dense(128, activation='relu')(top_model)
     top_model = Dense(64, activation='relu')(top_model)
     top_model = Dropout(0.2)(top_model)
-    output_layer = Dense(n_classes, activation='softmax')(top_model)  # softmax , tanh, sigmoid
-
+    output_layer = Dense(n_classes, activation='sigmoid')(top_model)  
+si
     # Group the convolutional base and new fully-connected layers into a Model object.
     model = Model(inputs=conv_base.input, outputs=output_layer)
 
